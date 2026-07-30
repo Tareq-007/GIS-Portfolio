@@ -40,6 +40,12 @@ Spatial analysis for identifying vulnerable schools and critical infrastructure.
 ### Project 07 – Earthquake Risk Assessment
 Hazard visualization and spatial analysis for earthquake-prone regions.
 
+### Project 08 – Landsat 8 Image Processing
+Satellite image preprocessing and multi-band visualization using Landsat 8 imagery in Google Earth Engine. The project demonstrates cloud filtering, median compositing, and True Color, False Color, and Urban composite visualization for land cover interpretation.
+
+### Project 09 – Sentinel-2 Image Processing
+Satellite image preprocessing and multi-band visualization using Sentinel-2 Harmonized imagery in Google Earth Engine. The project includes cloud filtering, median compositing, and visualization through True Color, False Color, and Agriculture composites for land cover analysis.
+
 ---
 
 ## Software
