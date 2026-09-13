@@ -1,60 +1,24 @@
-\# Landsat 8 Image Processing using Google Earth Engine
+Obstruction Limitation Surfaces – Shah Amanat International Airport
 
+A GIS-based visualization and spatial analysis project for mapping the Obstruction Limitation Surfaces (OLS) of Shah Amanat International Airport (VGEG), Chattogram, Bangladesh.
 
+The project uses QGIS and geospatial data to construct and visualize key airport safeguarding surfaces, including the Approach, Take-Off Climb, Transitional, Inner Horizontal, Conical, and Outer Horizontal Surfaces. The airport runway centerline, ARP, and surrounding OpenStreetMap features are incorporated to provide geographic context.
 
-\## Overview
+Key Features
+Airport runway and centerline mapping
+Obstruction Limitation Surface visualization
+Approach and Take-Off Climb Surface mapping
+Transitional, Conical, Inner Horizontal and Outer Horizontal Surfaces
+Airport Reference Point (ARP) and coordinate visualization
+Integration of OpenStreetMap basemap data
+Spatial visualization of surrounding terrain and infrastructure
+Aviation-focused GIS analysis and cartographic presentation
+Tools & Technologies
+QGIS
+OpenStreetMap
+Coordinate Reference Systems / UTM
+Vector GIS & spatial analysis
+Aviation geospatial data
+Objective
 
-This project demonstrates basic satellite image processing using Landsat 8 Collection 2 Level-2 Surface Reflectance imagery in Google Earth Engine.
-
-
-
-The workflow filters imagery by the study area (ROI), cloud cover, and acquisition date before creating a cloud-free median composite. Multiple band combinations are then used to visualize the same area for different analytical purposes.
-
-
-
-\## Workflow
-
-\- Import Landsat 8 Surface Reflectance imagery
-
-\- Filter images by Region of Interest (ROI)
-
-\- Filter by cloud cover (<1%)
-
-\- Filter by acquisition date
-
-\- Generate a median composite
-
-\- Clip the image to the study area
-
-\- Visualize using different band combinations
-
-
-
-\## Visualizations
-
-\- \*\*True Color Composite\*\* – Natural color visualization.
-
-\- \*\*False Color Composite\*\* – Highlights vegetation and water bodies.
-
-\- \*\*Urban Composite\*\* – Enhances built-up areas and urban features.
-
-
-
-\## Tools
-
-\- Google Earth Engine
-
-\- JavaScript
-
-\- Landsat 8 Collection 2 Level-2
-
-
-
-\## Outputs
-
-\- True Color Map
-
-\- False Color Map
-
-\- Urban Composite Map
-
+The objective is to demonstrate how GIS can support airport planning, obstacle assessment, aviation safety studies, and aerodrome safeguarding by integrating airport geometry with surrounding geographic features.
